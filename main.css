@@ -1,0 +1,146 @@
+.navbar {
+    margin-bottom: 0;
+}
+
+body {
+    background: #E9EAEA;
+    color: #f7f7f7;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page-header {
+    color: black;
+    border-bottom: 1px solid black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.col-md-4 {
+    display: block;
+    text-align: center
+}
+
+h1,
+h2 {
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    color: #cdcdcd;
+}
+
+.jumbotron {
+    background: #27A967;
+    color: white;
+    text-align: center;
+}
+
+.jumbotron p {
+    color: white;
+    font-size: 26px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: white;
+    margin-bottom: 5px;
+}
+
+.btn-primary:hover {
+    color: #27A967;
+    background-color: white;
+    border-color: white;
+}
+
+.navbar-inverse {
+    background: #2E2F31;
+    border: 0;
+}
+
+.navbar-inverse .navbar-nav li a {
+    color: #f7f7f7;
+    font-size: 16px;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+    background: #27A967;
+}
+
+.dropdown-menu {
+    background: #2E2F31;
+    border-radius: 0;
+    border: 0;
+}
+
+.dropdown-menu li a {
+    padding: 10px;
+}
+
+.navbar-inverse .navbar-nav .dropdown-menu li a:hover {
+    background: #2C463C;
+}
+
+.call-to-action {
+    text-align: center;
+}
+
+.call-to-action p {
+    margin-bottom: 30px;
+    font-family: sans-serif;
+}
+
+.glyphicon-large {
+    font-size: 100px;
+}
+
+.panel-image {
+    position: relative;
+}
+
+.panel-image img.panel-image-preview {
+    width: 100%;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.panel-image label {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.buffer {
+    height: 50px
+}
+
+.stylish-panel {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.stylish-panel>div>div {
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+
+.stylish-panel>div:hover>div {
+    margin-top: -10px;
+    border: 1px solid rgb(200, 200, 200);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    background: rgba(200, 200, 200, 0.1);
+    transition: 0.5s;
+}
+
+.stylish-panel>div:hover img {
+    border-radius: 50%;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
